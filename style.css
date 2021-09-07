@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(img/fond.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+a{
+	color: rgb(64, 64, 64);
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.header{
+	height: 170px;
+	width: 100%;
+	background-color: rgb(255, 51, 51);
+	padding-top: 50px;
+}
+.header-photo{
+	position: absolute;
+	margin-top: -50px;
+}
+.header-photo-portrait{
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	height: 220px;
+	width: auto;
+}
+.header-title{
+	text-align: center;
+	font-family: Zen Loop, Garamond;
+	letter-spacing: 10px;
+	color: rgb(64, 64, 64);
+}
+.header-title-main{
+	font-size: 80px;
+}
+.header-title-under{
+	font-size: 30px;
+}
+.header-nav{
+	margin-top: -150px;
+	margin-right: 20px;
+	text-align: right;
+	font-size: 35px;
+	color: rgb(64, 64, 64);
+	font-family: Prompt;
+}
+
+.header-link{
+	color: rgb(64, 64, 64);
+	text-align: right;
+	margin-right: 70px;
+	margin-top: 35px;
+	font-size: 40px;
+	font-family: Prompt;
+}
+.presentation{
+	height: 300px;
+	width: 950px;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-left: 80px;
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 5%;
+}
+.presentation-text{
+	color: rgb(64, 64, 64);
+	text-align: justify;
+	font-size: 20px;
+	font-family: Prompt;
+}
+.services-fr, .services-nl{
+	height: 300px;
+	width: 850px;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: 30px;
+	margin-left: 300px;
+	padding: 20px;
+	border-radius: 5%;
+}
+.services-text{
+	color: rgb(64, 64, 64);
+	text-align: justify;
+	font-size: 20px;
+	font-family: Prompt;
+}
+
+.shiatsu-place-image{
+	height: 250px;
+	width: auto;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.contact{
+	height: 150px;
+	width: 100%;
+	background-color: rgb(255, 51, 51);
+	margin-top: 40px;
+}
+.contact-title{
+	text-align: center;
+	font-family: Zen Loop;
+	color: rgb(64, 64, 64);
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+.contact-text{
+	font-size: 25px;
+	text-align: center;
+	color: rgb(64, 64, 64);
+	font-family: Prompt;
+}
+.contact-text-links{
+	display: inline;
+}
+@media (max-width: 1140px){
+
+	.header{
+		height: 500px;
+		width: 100%;
+	}
+	.header-title-main{
+		margin-top: 250px;
+		font-size: 100px;
+	}
+	.header-nav{
+		margin-top: -400px;
+		margin-right: 400px;
+		font-size: 50px;
+	}
+	.header-link{
+		margin-top: -150px;
+	}
+	.presentation{
+		width: 80%;
+		height: 900px;
+		margin-top: 100px;
+	}
+	.presentation-text{
+		font-size: 37px;
+		font-family: none;
+	}
+	.services-fr{
+		width: 80%;
+		height: 800px;
+		margin-left: 80px;
+		margin-top: 300px;
+	}
+	.services-nl{
+		width: 80%;
+		height: 1000px;
+		margin-left: 80px;
+		margin-top: 300px;
+	}
+	.services-text{
+		font-size: 37px;
+		font-family: none;
+	}
+	.shiatsu-place-image{
+		margin-top: 100px;
+	}
+}
