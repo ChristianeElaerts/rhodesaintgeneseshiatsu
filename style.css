@@ -183,6 +183,8 @@ ul{
 		font-family: none;
 	}
 	.prices{
+		height: 300px;
+		width: 60%;
 		margin-left: 200px;
 	}
 	.prices-title{
